@@ -1,0 +1,40 @@
+.section__header {
+    margin-bottom: 6rem;
+}
+.section__header__content{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    row-gap:1.5rem;
+}
+
+.section__header__title {
+    font-size: 5rem;
+    line-height: 1.2;
+    color: var(--color-title);
+    font-weight: 700;
+    font-family: var(--nunito-font-family);
+}
+
+.section__header__body {
+    font-size: 1.6rem;
+    line-height: 1.5; 
+    width: 100%;
+    color: var(--color-body);
+    font-family: var(--nunito-font-family);
+    font-weight: 400;
+    max-width: 37rem;
+}
+
+.section__header__text{
+    font-size: 2.4rem;
+    line-height: 1.2; 
+    color:#FF5A3C;
+    font-family: var(--nunito-font-family);
+    font-weight: 400;
+}
+

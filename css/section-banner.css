@@ -1,0 +1,229 @@
+.banner{
+    margin-bottom: 12rem;
+    background: rgba(242, 246, 247, 1);
+}
+.banner__inner{
+    display: flex;
+}
+.banner__content{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    width: 40%;
+}
+.banner__hero{
+    width: 60%;
+}
+.banner__content__title{
+    max-width: 45rem;
+    font-size: 4.4rem;
+    font-weight: 700;
+    line-height: 1.15;
+    color: #071C1F;
+}
+.banner__content__description{
+    margin: 3rem 0;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #9EABB2;
+
+}
+
+.banner__content__btn {
+    display: inline-flex;
+    align-items: center; 
+    font-size: 1.6rem;
+    font-weight: 400;
+    text-decoration: none;
+    color: #fff;
+    background-color: #ff5a3c;
+    padding: 1.5rem 3rem;
+    box-shadow: 0px 15px 30px -10px #EE2A5240;
+    border-radius: 1rem;
+    max-width: 23rem;
+}
+
+.banner__content__btn span {
+    display: inline-flex;
+    margin-left: 0.5rem;
+}
+
+.banner__content__btn svg {
+    width: 12px;
+    height: 13px;
+}
+
+.banner__navigation{
+    display: flex;
+    align-items: center;
+    margin-bottom: 3rem;
+    margin-top: 13.2rem;
+}
+.banner__navigation__house{
+    display: flex;
+    align-items: end;
+}
+.banner__navigation__number{
+    display: flex;
+}
+.banner__navigation__house-item{
+    padding: .4rem .8rem;
+    width: 8.8rem;
+    height: 6rem;
+    color: #fff;
+    background: linear-gradient(0deg, #9c9999, #C4C4C4),linear-gradient(0deg, #C4C4C4, #C4C4C4);
+
+}
+.banner__navigation__house-item:first-child{
+    width: 11.4rem;
+    height: 8rem;
+}
+.banner__navigation__line {
+    margin: 0 1rem;
+    width: 6.3rem;
+    height: .2rem;
+    background: linear-gradient(to right, #000 50%, rgba(235, 235, 235, 1) 50%);
+    transition: width 0.3s ease;
+}
+
+.banner__navigation__house-item:hover ~ .banner__navigation__line {
+    width: 100%; 
+    background: linear-gradient(to right, #000 50%, rgba(235, 235, 235, 1) 50%);
+}
+
+.banner__navigation__number{
+    display: flex;
+    align-items: baseline;
+    font-size: 1rem;
+    font-weight: 500;
+    color: rgba(98, 113, 147, 1);
+    line-height: 1.5;
+
+}
+.banner__navigation__number p {
+    margin: 0 .6rem;
+}
+.banner__navigation__number p:nth-of-type(1) {
+    font-size: 2rem;
+    color: rgba(7, 28, 31, 1);
+}
+
+.banner__hero__pic{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.banner__hero__img{
+    width: 100%;
+    height: 100%;
+}
+.banner__hero{
+    position: relative;
+}
+
+.banner__hero__btn{
+    position: absolute;
+    bottom: 0;
+    right: 0; 
+    display:flex;
+    align-items: center;
+    color: #fff;
+    font-size: 1.4rem;
+    font-weight: 500;
+    padding: 1.4rem 2rem;
+    background-color: #ff5a3c;
+    border: none;
+    border-top-left-radius:1rem ;
+}
+.banner__hero__btn svg{
+    width: 3.7rem;
+    height: 3.7rem;
+}
+.banner__revenue{
+    position: absolute;
+    left: -6rem;
+    bottom: -6rem;
+    display: flex;
+    flex-direction: column;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 10px 14px 59px 0px rgba(0, 0, 92, 0.07);
+    padding: 2.5rem 3rem;
+    border-radius: 1rem;
+    min-width: 24rem;
+}
+.banner__revenue__pic{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.banner__revenue__img{
+    width: 5rem;
+    height: 5rem;
+}
+.banner__revenue__price{
+    font-size: 2.6rem;
+    font-weight: 600;
+    color: rgba(7, 28, 31, 1);
+    line-height: 1.5;
+    margin-top: 2.5rem;
+    margin-bottom: .5rem;
+}
+.banner__revenue__text{
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: rgba(158, 171, 178, 1);
+    line-height: 1.5;
+
+
+}
+.banner__vector{
+    position: absolute;
+    top: 20%;
+    left: -10rem;
+}
+.banner__vector__pic{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.banner__vector__img{
+    width: 15.5rem;
+    height: 20.9rem;
+    object-fit: contain;
+}
+@media (max-width: 1200px) {
+    .banner__revenue {
+        opacity: 0;
+        pointer-events: none;
+    }
+}
+
+@media (max-width: 1279px) {
+    
+    .banner__navigation__house-item:first-child{
+        height: 5rem;
+        width: 6.2rem;
+    }
+    .banner__navigation__house-item{
+        width: 5.4rem;
+        height: 4rem;
+        font-size: .8rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .banner__inner{
+        flex-direction: column;
+        align-items: center;
+    }
+    .banner__content{
+        padding: 2rem 0;
+        width: 100%;
+        align-items: center;
+        max-width: 70rem;
+    }
+    .banner__content__title{
+        max-width: none;
+    }
+}

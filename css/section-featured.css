@@ -1,0 +1,116 @@
+.featured{
+    background: linear-gradient(0deg, #C4C4C4, #C4C4C4),linear-gradient(0deg, #C4C4C4, #C4C4C4);
+    margin-bottom: 12rem;
+}
+.featured__body{
+    display: flex;
+    align-items: center;
+    background: #FFFFFF;
+    box-shadow: -10px 14px 34px 0px #3C50E017;
+    max-width: 38rem;
+    margin: auto;
+    border-radius: 2rem;
+    padding: 2rem;
+
+}
+.featured__inner{
+    position: relative;
+    padding: 15rem 0;
+}
+.featured__functions{
+    display: flex;
+    align-items: center;
+}
+.featured__body__image, .featured__content{
+    width: 50%;
+}
+.featured__body__pic{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.featured__body__img{
+    width: 100%;
+    height: 100%;
+    
+}
+.featured__functions__item{
+    display: flex;
+    align-items: center;
+}
+.featured__content {
+    padding: 1.6rem;
+    width: 40rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+  
+.featured__content__price {
+    font-size: 3rem;
+    font-weight: 600;
+    color: #071C1F;
+
+}
+  
+.featured__content__address {
+    font-size: 1.4rem;
+    color: #6D7781;
+    
+}
+  
+.featured__functions {
+    display: flex;
+    justify-content: space-between;
+    gap: 1.6rem;
+}
+  
+.featured__functions__item {
+    display: flex;
+    align-items: center;
+    gap: .8rem;
+}
+  
+.featured__functions__item-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+.featured__functions__item-text {
+    font-size: 14px;
+    color: #333;
+}
+  
+  
+.featured__functions__item-content rect {
+    fill: #FF5A3C;
+    fill-opacity: 0.2;
+}
+  
+.featured__functions__item path {
+    fill: #FF5A3C;
+}
+.featured__number {
+    position: absolute;
+    bottom: -5rem;
+    left: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 12rem;
+    height:  12rem; 
+    background-color: #FF5A3C; 
+    color: white;
+    font-size: 1.8rem;
+    font-weight: 400; 
+    border-radius: 50%;
+    text-align: center;
+}
+
+.featured__number__value {
+    margin-top: 2rem;
+    font-size: 3.2rem;
+    font-weight: 600;
+}

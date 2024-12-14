@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --max-width: 1430px;
+    --color-title : #242424;
+    --color-body: #8C8C8C;
+    --nunito-font-family:"Nunito", sans-serif;
+    --inter-font-family:  "Inter", sans-serif;
+  }
+  
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    box-sizing: border-box;
+}
+  
+body {
+    margin: 0;
+}
+  
+article, aside, footer, header, nav, section, figcaption, figure, main {
+    display: block;
+}
+  
+figure {
+    margin: 0;
+}
+picture{
+    margin: 0;
+    padding: 0;
+    line-height: 0; 
+}
+  
+hr {
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+}
+  
+a {
+    background-color: rgba(0, 0, 0, 0);
+    text-decoration: none;
+}
+  
+a:active, a:hover {
+    outline-width: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+a, span {
+    display: block;
+}
+.container {
+    width: 100%;
+    max-width: var(--max-width, 1920px);
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+  
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+    .container {
+      padding-left: 3rem;
+      padding-right: 3rem;
+    }
+}
+@media screen and (min-width: 1440px) {
+    .container {
+      padding-left: 6rem;
+      padding-right: 6rem;
+    }
+}
